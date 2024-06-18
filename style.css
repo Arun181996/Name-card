@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  
+}
+
+.Profile-card {
+  position: relative;
+  height: 350px;
+  width: 300px;
+  background-color: whitesmoke;
+  margin: 100px auto;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+  background: #11998e;
+  background: -webkit-linear-gradient(to right, #38ef7d, #11998e);
+  background: linear-gradient(to right, #38ef7d, #11998e);
+
+}
+.Profile-image img {
+  border-radius: 50%; 
+  height: 100px;
+  width: 100px;
+  margin: 0 auto; 
+  border: 1px solid rgb(15, 192, 103);
+  display: block; /
+}
+.Profile-info h5 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  width: 48px;
+  margin: auto;
+}
+.Profile-info p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
